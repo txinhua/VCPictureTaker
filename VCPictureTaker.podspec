@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source       = { :git => "https://github.com/txinhua/VCASTrickLock.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/txinhua/VCPictureTaker.git", :tag => s.version }
 
-  s.source_files  = "VCASTrickLock/VCASLock/*.{h,m}"
+  s.source_files  = "VCPictureTaker/*.{h,m}"
 
-  s.resources = "VCASTrickLock/VCASLock/VcAsLockMedia/*"
+  s.resources = "VCPictureTaker/Resources/*"
 
   s.frameworks = "UIKit",""
 
